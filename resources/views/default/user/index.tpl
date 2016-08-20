@@ -31,40 +31,6 @@
             </div>
             <!-- /.col (right) -->
 
-            <div class="col-md-6">
-                <div class="box box-primary">
-                    <div class="box-header">
-                        <i class="fa fa-exchange"></i>
-
-                        <h3 class="box-title">流量使用情况</h3>
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="box-body">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="progress progress-striped">
-                                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40"
-                                         aria-valuemin="0" aria-valuemax="100"
-                                         style="width: {$user->trafficUsagePercent()}%">
-                                        <span class="sr-only">Transfer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <dl class="dl-horizontal">
-                            <dt>总流量</dt>
-                            <dd>{$user->enableTraffic()}</dd>
-                            <dt>已用流量</dt>
-                            <dd>{$user->usedTraffic()}</dd>
-                            <dt>剩余流量</dt>
-                            <dd>{$user->unusedTraffic()}</dd>
-                        </dl>
-                    </div>
-                    <!-- /.box-body -->
-                </div>
-                <!-- /.box -->
-            </div>
-            <!-- /.col (left) -->
 
             <div class="col-md-6">
                 <div class="box box-primary">
